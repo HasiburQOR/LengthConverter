@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LengthConverter</title>
+</head>
+<body>
+    <!-- logo start -->
+    <div class="logo">
+        <img src="/logo/cold, smooth & tasty..png" alt="logo">
+    </div>
+    <!-- logo end -->
+
+
+    <p>type valu in any of the box!!</p>
+
+
+
+    <!-- input box html start -->
+    <div class="inputContainer">
+        <label for="feet">Feet</label><input type="number" id="feet" oninput="ConvertToOthers('feet', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="meters">Meters</label><input type="number" id="meter" oninput="ConvertToOthers('meters', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="inches">Inches</label><input type="number" id="inches" oninput="ConvertToOthers('inches', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="cm">cm</label><input type="number" id="cm" oninput="ConvertToOthers('cm', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="yards">yards</label><input type="number" id="yards" oninput="ConvertToOthers('yards', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="km">km</label><input type="number" id="km" oninput="ConvertToOthers('km', this.value)">
+    </div>
+    <div class="inputContainer">
+        <label for="miles">miles</label><input type="number" id="miles" oninput="ConvertToOthers('miles', this.value)">
+    </div>
+    <!-- input box html end -->
+
+    <script src="custom.js"></script>
+</body>
+</html>
